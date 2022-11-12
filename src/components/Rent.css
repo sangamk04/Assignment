@@ -1,0 +1,38 @@
+.container{
+    width: 90%;
+    height: 100%;
+    display:grid;
+    grid-template-columns: repeat(3,20%);
+    grid-gap:85px;
+    margin-left: 60px;
+    margin-top: 30px;
+    /* border: 1px solid red; */
+}
+.card{
+    /* border: 1px solid red; */
+    background-color: rgb(255, 255, 255);
+    border-radius: 5px;
+  width: 300px;
+  margin-left: 150px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.img{
+    width: 300px;
+    /* border: 1px solid red; */
+}
+.price{
+   /* margin-left: -200px; */
+   color: rgb(126, 129, 239);
+}
+
+.line{
+    width: 300px;
+    background-color: grey;
+    height: 1px;
+}
+.maindiv{
+    /* border: 1px solid red; */
+    width: 280px;
+    margin-left: 10px;
+}
